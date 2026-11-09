@@ -307,22 +307,69 @@ p {
     letter-spacing: 0.5px;
 }
 
-.card {
-    background-color: #F9F9FC;
-    height: 532px;
-    border: #fff;
+.portcard {
+    /* background-color: #F9F9FC; */
+    height: 300px;
+    background-color:#C4C4C4;
     border-radius: 24px;
+    
+   margin-top: 51px;
+    transition: 0.5s;
     position: relative;
 }
-
-.cardtext {
+.portcardtext{
     position: absolute;
+  
     bottom: 0px;
-    left: 47px;
-    background-color: #fff;
-    width: 100%;
+   
+    
+   
 }
 
+.portcardtext h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+letter-spacing: 0.5px;
+color:#000000 ;  
+margin-left: 47px; 
+padding-top: 33px
+
+    
+}
+.portcardtext p{
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 47px;
+    margin-bottom: 46px;
+    margin-top: 8px;
+
+  
+}
+.portcard:hover {
+
+
+     box-shadow: 27px  37px 80px 0px rgba(0, 0, 0, 0.192);
+     transform: translateY(-5px);
+    
+}
+.portcard:hover .portcardtext{
+ background-color: white;
+    width: 100%;
+}
+.portcardbt{
+    margin-top: 30px;
+}
+.portbottom p{
+    width: 557px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.719);
+}
+.portcardtwo{
+    margin-top: 70px;
+}
 /* portfolio css end */
 /* comment section style start */
 #comment {
@@ -451,6 +498,7 @@ p {
    background-repeat: no-repeat;
    margin-top: 136px;
    margin-bottom: 132px;
+   border-right: 24px;
 }
 .contacttext a{
  
@@ -502,7 +550,7 @@ p {
      margin-top: 112px;
      margin-bottom: 60px;
 }
-.footright  ,p ,i{
+.footright i{
     margin-right: 20px;
 }
 hr{
