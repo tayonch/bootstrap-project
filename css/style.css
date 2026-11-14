@@ -60,6 +60,7 @@ p {
 /* banner SECTION CSS START */
 #bannerpart {
     background-color: #F9F9FC;
+
 }
 
 .bannercontent {
@@ -80,6 +81,7 @@ p {
     line-height: 78px;
     margin: 32px 0px;
 }
+
 
 .bannerbtn a {
     color: #F9F9FC;
@@ -219,7 +221,7 @@ p {
 }
 
 .servicecard:hover {
-    box-shadow: 27px  37px 80px 0px rgba(0, 0, 0, 0.192);
+    box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.192);
     transform: translateY(-10px);
     background-color: #ffffff;
 }
@@ -231,6 +233,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 
@@ -311,34 +314,34 @@ p {
 .portcard {
     /* background-color: #F9F9FC; */
     height: 300px;
-    background-color:#C4C4C4;
+    background-color: #C4C4C4;
     border-radius: 24px;
-    
-   margin-top: 51px;
+
+    margin-top: 51px;
     transition: 0.5s;
     position: relative;
 }
-.portcardtext{
+
+.portcardtext {
     position: absolute;
-  
+
     bottom: 0px;
-   
-    
-   
+
+
+
 }
 
 .portcardtext h5 {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-letter-spacing: 0.5px;
-color:#000000 ;  
-margin-left: 47px; 
-padding-top: 33px
-
-    
+    letter-spacing: 0.5px;
+    color: #000000;
+    margin-left: 47px;
+    padding-top: 33px
 }
-.portcardtext p{
+
+.portcardtext p {
     color: rgba(0, 0, 0, 0.712);
     font-weight: 500;
     line-height: 24px;
@@ -346,31 +349,37 @@ padding-top: 33px
     margin-bottom: 46px;
     margin-top: 8px;
 
-  
+
 }
+
 .portcard:hover {
 
 
-     box-shadow: 27px  37px 80px 0px rgba(0, 0, 0, 0.192);
-     transform: translateY(-5px);
-    
+    box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.192);
+    transform: translateY(-5px);
+
 }
-.portcard:hover .portcardtext{
- background-color: white;
+
+.portcard:hover .portcardtext {
+    background-color: white;
     width: 100%;
 }
-.portcardbt{
+
+.portcardbt {
     margin-top: 30px;
 }
-.portbottom p{
+
+.portbottom p {
     width: 557px;
     line-height: 32px;
     letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 0.719);
 }
-.portcardtwo{
+
+.portcardtwo {
     margin-top: 70px;
 }
+
 /* portfolio css end */
 /* comment section style start */
 #comment {
@@ -421,7 +430,7 @@ padding-top: 33px
     background-color: #F9F9FC;
     border: 1px solid #ffffff;
     border-radius: 24px;
-    
+
     margin-top: -100px;
     transition: 0.5s;
 }
@@ -435,148 +444,171 @@ padding-top: 33px
     color: #000000;
     margin-left: 42px;
 }
-.commentcard img{
+
+.commentcard img {
     margin-top: 44px;
     margin-bottom: 32px;
     margin-left: 42px;
 }
-.cmentbox{
+
+.cmentbox {
     height: 64px;
     width: 64px;
     background-color: #5E3BEE;
     border-radius: 50%;
 }
-.cmtfoot{
+
+.cmtfoot {
     display: flex;
     margin-top: 27px;
     margin-left: 42px;
     align-items: center;
-    
+
 }
-.cmttext h5{
+
+.cmttext h5 {
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0.5px;
     color: #000000;
 }
-.cmttext h6{
+
+.cmttext h6 {
     line-height: 24px;
     letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 0.692);
 }
-.cmttext{
+
+.cmttext {
     margin-left: 17px;
     margin-right: 250px;
 }
-.commentcard:hover{
+
+.commentcard:hover {
     background-color: #ffffff;
-     box-shadow: 27px  37px 80px 0px rgba(0, 0, 0, 0.192);
+    box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.192);
     transform: translateY(-10px);
 }
+
 /* commment card style end */
 /* contact style start */
 
-.contacttext h3{
+.contacttext h3 {
     font-size: 50px;
     font-weight: 614px;
     line-height: 72px;
     letter-spacing: 0.5px;
     color: #333333;
     width: 606px;
-   
-   text-align: center;
-   margin: 0px auto;
-   margin-bottom: 42px;
 
-   
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 42px;
+
+
 }
-.conwraper{
-  text-align: center;
-   background-image: url(../images/Group\ 50.png);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   margin-top: 136px;
-   margin-bottom: 132px;
-   border-right: 24px;
+
+.conwraper {
+    text-align: center;
+    background-image: url(../images/Group\ 50.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 136px;
+    margin-bottom: 132px;
+    border-right: 24px;
 }
-.contacttext a{
- 
+
+.contacttext a {
+
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.5px;
     color: #ffffff;
     background-color: #5E3BEE;
-    padding: 26px 38px ;
+    padding: 26px 38px;
     border-radius: 50px;
 }
+
 .contacttext {
-   padding-top: 112px;
-   padding-bottom: 152px;
+    padding-top: 112px;
+    padding-bottom: 152px;
 }
 
 
 /* contact style end */
 /* footter section style start */
-#footter{
+#footter {
     background-color: #333333;
 }
-.footleft p{
+
+.footleft p {
     line-height: 32px;
-    color:#ffffff ;
+    color: #ffffff;
     letter-spacing: 0.5px;
     width: 369px;
     margin-top: 23px;
 }
-.footleft{
+
+.footleft {
     margin-top: 112px;
     margin-bottom: 60px;
-    
+
 }
-.footright p{
+
+.footright p {
     color: #ffffff;
 
 }
-.footright h6{
+
+.footright h6 {
     color: #ffffff;
     margin-top: 23px;
     margin-bottom: 38px;
 }
-.footlogo img{
+
+.footlogo img {
     margin-right: 37px;
 }
-.footright{
-   
-     margin-top: 112px;
-     margin-bottom: 60px;
+
+.footright {
+
+    margin-top: 112px;
+    margin-bottom: 60px;
 }
-.footright i{
+
+.footright i {
     margin-right: 20px;
 }
-hr{
-stroke: #404040;
- 
+
+hr {
+    stroke: #404040;
+
 }
-.fotmenu ul{
+
+.fotmenu ul {
     display: flex;
-   
+
     align-items: center;
     margin-top: 56px;
     margin-bottom: 44px;
     margin-right: 37px;
 }
-.fotmenu ul a{
+
+.fotmenu ul a {
     color: #ffffff;
-     margin-right: 37px;
-     font-size: 14px;
-     line-height: 22px;
-     letter-spacing: 1.5px;
+    margin-right: 37px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1.5px;
 }
-.fotcopy{
+
+.fotcopy {
     color: rgba(255, 255, 255, 0.63);
     width: 152px;
     margin-top: 52px;
     margin-bottom: 44px;
 }
+
 /* footter section style end */

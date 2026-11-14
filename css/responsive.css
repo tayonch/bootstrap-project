@@ -1,0 +1,234 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header section start */
+
+    /* header section end */
+
+    /* banner section start */
+    .bannercontent h5 {
+        text-align: center;
+        margin-bottom: 21px;
+    }
+
+    .bannercontent h1 {
+        color: #333333;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 64px;
+        text-align: center;
+        width: 365px;
+        margin: 0 auto;
+
+    }
+
+    .bannercontent {
+        padding-top: 32px;
+        padding-bottom: 88px;
+    }
+
+    .bannerbtn {
+        text-align: center;
+
+    }
+
+    .bannerbtn a {
+        margin-top: 20px;
+
+        display: inline-block;
+
+    }
+
+    .bannerbtn a:nth-child(2) {
+        margin-top: 10px;
+
+
+    }
+
+    .bannerimg {
+        margin-top: -60px;
+        padding-bottom: 27px;
+
+    }
+
+    .bannerbtn .btncontact {
+        margin-right: 0;
+    }
+
+
+
+
+
+    /* couonter section start */
+    #counter {
+        padding-top: 45px;
+        padding-bottom: 45px;
+
+        text-align: center;
+
+    }
+
+    .countertext h4 {
+
+        width: 114px;
+        text-align: center;
+
+    }
+
+    .countertext p {
+        font-weight: 500;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.699);
+        margin-top: 8px;
+        width: 142px;
+        text-align: center;
+    }
+
+    .conttop {
+        margin-top: 50px;
+    }
+
+    /* couonter section end */
+    /* service section start */
+
+
+    .servicetext h4 {
+        width: 365px;
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 600;
+
+    }
+
+    .servicetext p {
+
+        width: 365px;
+        margin: 0px auto;
+
+
+    }
+
+    .cardimg {
+        text-align: center;
+        margin-top: 27px;
+    }
+
+    .servicecard {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+
+    }
+
+
+
+    /* service section end */
+    /* experience section start */
+    #experience {
+        padding: 80px 0px;
+
+
+    }
+
+    .extext {
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+
+    }
+
+
+    .extext h5 {
+        text-align: center;
+
+
+    }
+
+    .extext h2 {
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 64px;
+        width: 368px;
+
+        margin-top: 14px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .extext p {
+
+        width: 360px;
+
+        margin-bottom: 37px;
+    }
+
+
+    .exbtn {
+        text-align: center;
+    }
+
+ .col-6{
+    width: 168px;
+    text-align: center;
+ }
+
+    /* experience section end */
+ 
+    /* company section start */
+#company {
+    margin-top:66px;
+    margin-bottom: 45px;
+   
+}
+
+
+
+
+
+    /* company section end */
+    /* header section start */
+    /* header section end */
+    /* header section start */
+    /* header section end */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    ...
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    ...
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    ...
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
