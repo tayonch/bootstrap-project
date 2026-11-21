@@ -233,7 +233,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
 }
 
@@ -331,6 +331,7 @@ p {
 
 }
 
+
 .portcardtext h5 {
     font-size: 20px;
     font-weight: 500;
@@ -338,10 +339,11 @@ p {
     letter-spacing: 0.5px;
     color: #000000;
     margin-left: 47px;
-    padding-top: 33px
+    padding-top: 33px;
+    text-align: center;
 }
 
-.portcardtext p {
+.portpara p {
     color: rgba(0, 0, 0, 0.712);
     font-weight: 500;
     line-height: 24px;
@@ -374,10 +376,11 @@ p {
     line-height: 32px;
     letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 0.719);
+    text-align:center;
 }
 
 .portcardtwo {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 /* portfolio css end */
