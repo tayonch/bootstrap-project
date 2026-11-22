@@ -43,12 +43,16 @@ p {
 
 }
 
-.navbar-nav li a {
-    margin-left: 48px;
+.navbar-nav .nav-item a {
+    margin-left: 40px;
+
     color: #000000;
     line-height: 24px;
     font-size: 14px;
-    text-transform: uppercase;
+
+}
+.navbar-nav .nav-item a:hover{
+color: #5E3BEE;
 }
 
 #nav {
@@ -310,66 +314,69 @@ p {
 
     letter-spacing: 0.5px;
 }
+.pcard{
+position: relative;
+}
+.pcard img{
+ width: 100%;
+height: 532px;
 
-.portcard {
-    /* background-color: #F9F9FC; */
-    height: 300px;
-    background-color: #C4C4C4;
-    border-radius: 24px;
-
-    margin-top: 51px;
-    transition: 0.5s;
-    position: relative;
 }
 
-.portcardtext {
-    position: absolute;
+.pcardtext{
+    
+    text-align: center;
+  
 
+
+  
+   
+  
+}
+.pcardoverlay{
+  position: absolute;
     bottom: 0px;
-
-
-
+    width: 100%;
+    background-color: #5f3beea1;  
+    display: none;
+   
 }
 
+.pcard:hover .pcardoverlay{
+  display: block;
+}
 
-.portcardtext h5 {
+.pcardtext h4{
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0.5px;
-    color: #000000;
-    margin-left: 47px;
-    padding-top: 33px;
-    text-align: center;
+    color:white;
+     margin-top: 33px;
+  
+   
+}
+.pcardbtm{
+    margin-top: 50px;
 }
 
-.portpara p {
-    color: rgba(0, 0, 0, 0.712);
+.pcardtext h5 {
+    color:rgba(255, 255, 255, 0.404);
     font-weight: 500;
     line-height: 24px;
-    margin-left: 47px;
-    margin-bottom: 46px;
+  
     margin-top: 8px;
+    margin-bottom: 20px;
 
 
 }
 
-.portcard:hover {
 
-
-    box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.192);
-    transform: translateY(-5px);
-
+.portpara p{
+    line-height: 32px;
+    width: 557px;
 }
 
-.portcard:hover .portcardtext {
-    background-color: white;
-    width: 100%;
-}
-
-.portcardbt {
-    margin-top: 30px;
-}
 
 .portbottom p {
     width: 557px;
